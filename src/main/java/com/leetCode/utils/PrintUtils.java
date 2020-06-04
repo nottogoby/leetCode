@@ -20,4 +20,8 @@ public class PrintUtils {
         }
     }
 
+    public static void printError(String error){
+        System.err.println("error:"+error);
+    }
+
 }
